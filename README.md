@@ -18,7 +18,7 @@
 
 ## 기능
 (1) AI 를 통한 영상 추천 기능 : 신체 부위와 구체적인 통증 키워드를 선택하면 이에 맞는 운동 영상이 추천되는 기능 <br> <br>
-(2)  YOUTUBE 연동을 통해 부위 별 운동 영상 저장 및 앱 내에서 시청 : 유저의 편리함을 위해 앱 내에서 YOUTUBE 기능을 연동 시켜 영상 링크 저장 및 바로 시청 가능 <br> <br>
+(2) YOUTUBE 연동을 통해 부위 별 운동 영상 저장 및 앱 내에서 시청 : 유저의 편리함을 위해 앱 내에서 YOUTUBE 기능을 연동 시켜 영상 링크 저장 및 바로 시청 가능 <br> <br>
 (3) 평가 일지 작성 : 운동 진행 후 평가 일지 작성을 통해서 자신의 운동 후 상태를 보고 <br> <br>
 (4) 뱃지 : 성취감 제고를 위해서 각각의 미션을 설정한 후 유저가 이를 달성 시 조건에 맞는 뱃지를 취득함 <br> <br>
 (5) 커뮤니티 : WEEKLY MISSION 과 부위 별 커뮤니티 운영을 통해서 각 재활에 맞는 정보 공유 가능
@@ -42,10 +42,11 @@
 ### **🤖** 안드로이드
 | **Category** | **TechStack** |
 | --- | --- |
+| Language | Kotlin |
 | Architecture | Repository Pattern, MVVM |
 | DI | Hilt |
-| Network | Retrofit, OkHttp, Gson |
-| Asynchronous | Coroutines, Flow |
+| Network | Retrofit |
+| Asynchronous | Coroutine, Flow |
 | Jetpack |  DataBinding, Navigation, DataStore, CameraX |
 | Image | Glide |
 | Notification | Firebase FCM |
